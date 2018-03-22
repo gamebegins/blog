@@ -1,0 +1,311 @@
+/*
+Author: W3layouts
+Author URL: http//w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http//creativecommons.org/licenses/by/3.0/
+*/
+/* reset */
+
+/*end reset*/
+
+
+/*---End-header----*/
+
+/*-------LOGIN STARTS HERE -------*/
+/* Login Container (default to float:right) */
+#loginContainer {
+    position:relative;
+    float: left;
+}
+#loginBox:before,#signupBox:before{
+	content: '';
+	position: absolute;
+	right: 25px;
+	text-align: center;
+	top: -21px;
+	border-left: 20px solid rgba(0, 0, 0, 0);
+	border-right: 20px solid rgba(0, 0, 0, 0);
+	border-bottom: 20px solid #9B59B6;
+}
+/* Login Button */
+#loginButton{ 
+    display: inline-block;
+	float: right;
+	position: relative;
+	z-index: 30;
+	cursor: pointer;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+/* Login Button Text */
+#loginButton span {
+  display: block;
+	text-align: center;
+	border-radius: 0.15em;
+	-webkit-border-radius: 0.15em;
+	-moz-border-radius: 0.15em;
+	-o-border-radius: 0.15em;
+	font-family: 'Open Sans', sans-serif;
+}
+/* Login Box */
+#loginBox {
+    position: absolute;
+	top: 96px;
+	right: 0;
+	display: none;
+	z-index: 999;
+	padding-bottom: 0.8em;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: inset 0px -2px 2px #DFDFDF;
+}
+/* If the Login Button has been clicked */    
+
+
+/* Login Form */
+#loginForm {
+    width:300px;
+	z-index: 999;
+}
+#loginForm fieldset {
+    margin:0 0 0px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+fieldset#body {
+    background:#fff;
+    padding:20px;
+    margin:0;
+    border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#loginForm #checkbox {
+    width:auto;
+    margin: 7px 9px 0 0;
+    float:left;
+    padding:0;
+    border:0;
+    *margin:-3px 9px 0 0; /* IE7 Fix */
+}
+#body label {
+    color:#777777;
+    display:block;
+    float:left;
+    line-height: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+#loginForm #body fieldset label {
+    display: block;
+	color: #777;
+	font-size: 0.875em;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+}
+/* Default Input */
+#loginForm input,#signupForm input[type="text"], #signupForm input[type="password"] {
+    width: 93.6%;
+	color: #3a454d;
+	padding: 8px 8px;
+	margin: 0.3em 0;
+	border: 1px solid #D8D8D8;
+	font-size: 0.875em;
+	transition: border-color 0.5s all;
+	-webkit-transition: border-color 0.5s all;
+	-moz-transition: border-color 0.5s all;
+	-o-transition: border-color 0.5s all;
+	border-radius: 0.15em;
+	-webkit-border-radius: 0.15em;
+	-moz-border-radius: 0.15em;
+	-o-border-radius: 0.15em;
+	font-family: 'Open Sans', sans-serif;
+}
+#loginForm input:hover{
+	border: 1px solid #999;
+} 
+.remeber{
+	margin-top:0.5em;
+}
+/* Sign In Button */
+#loginForm #login,#signupForm #signup{
+    color: #fff;
+	font-size: 0.875em;
+	font-weight: normal;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	background:#9B59B6;
+	display: inline-block;
+	width: 100%;
+	cursor:pointer;
+	margin: 1em 0 0 0;
+	border: none;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	border-radius: 0.15em;
+	-webkit-border-radius: 0.15em;
+	-moz-border-radius: 0.15em;
+	-o-border-radius: 0.15em;
+	font-family: 'Open Sans', sans-serif;
+}
+#loginButton span:hover{
+	color:#FFF;
+}
+#loginForm #login:hover{
+	background:#3D3D3D;
+}
+#signupForm #signup:hover{
+	background:#3D3D3D;
+}
+/* Forgot your password */
+#loginForm span {
+    display: block;
+	background: #fff;
+	padding: 0px 0px 0px 13px;
+}
+#loginForm span a {
+    color: #777;
+	font-size: 0.875em;
+	font-family: 'Open Sans', sans-serif;
+}
+input:focus {
+    outline:none;
+}
+/* signup Container (default to float:right) */
+#signupContainer {
+    position:relative;
+    float: left;
+}
+
+/* Login Button */
+#signupButton { 
+    display: inline-block;
+	float: right;
+	position: relative;
+	z-index: 30;
+	cursor: pointer;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+}
+/* Login Button Text */
+#signupButton span {
+  display: block;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+/* Login Box */
+#signupBox {
+    position: absolute;
+	top: 96px;
+	right: 0;
+	display: none;
+	z-index: 999;
+	padding-bottom: 0.8em;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	box-shadow: inset 0px -2px 2px #DFDFDF;
+}
+/* If the Login Button has been clicked */    
+#signupButton.active {
+	border-radius: 0.15em;
+}
+.active span:hover{
+	color:#FFF;
+}
+/* Login Form */
+#signupForm {
+    width: 300px;
+	z-index: 999;
+}
+#signupForm fieldset {
+    margin:0 0 0px 0;
+    display:block;
+    border:0;
+    padding:0;
+}
+fieldset#signupbody {
+    background:#fff;
+    padding:20px;
+    margin:0;
+    border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+#signupForm #checkbox {
+    width:auto;
+    margin: 7px 9px 0 0;
+    float:left;
+    padding:0;
+    border:0;
+    *margin:-3px 9px 0 0; /* IE7 Fix */
+}
+#signupbody label {
+    color:#777777;
+    display:block;
+    float:left;
+    line-height: 1.5em;
+}
+#signupForm #signupbody fieldset label {
+    display: block;
+	color: #777;
+	font-size: 0.875em;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 1.5em;
+	font-family: 'Open Sans', sans-serif;
+}
+#signupForm #signupbody fieldset label span{
+	display: inline-block;
+	padding: 0px;
+	font-size: 0.875em;
+	color:#9B59B;
+}
+.remeber{
+	margin-top:0.5em;
+}
+
+/* Forgot your password */
+#signupForm span {
+    display: block;
+	background: #fff;
+	padding: 0px 0px 0px 13px;
+}
+#signupForm span a {
+    color: #FFF;
+	font-size: 0.875em;
+}
+input:focus {
+    outline:none;
+}
+/*----//End-content---*/
+/*---//End-wrap-----*/
+/***********/
+
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-image: -webkit-gradient(linear, 0 0, 100% 100%,  color-stop(.25, rgba(255, 255, 255, .2)),  color-stop(.25, transparent), color-stop(.5, transparent),  color-stop(.5, rgba(255, 255, 255, .2)),  color-stop(.75, rgba(255, 255, 255, 

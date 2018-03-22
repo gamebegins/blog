@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>{$title}</title>  
+    <link rel="stylesheet" href="public/css/pintuer.css">
+    <link rel="stylesheet" href="public/css/admin.css">
+    <script src="public/js/jquery.js"></script>
+    <script src="public/js/pintuer.js"></script> 
+</head>
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head"><strong class="icon-reorder"> 板块管理</strong></div>
+  <div class="padding border-bottom">  
+  <a class="button border-yellow" href="#add"><span class="icon-plus-square-o"></span> 添加板块</a>
+  </div> 
+  <table class="table table-hover text-center">
+    <tr>
+      <th width="5%">ID</th>     
+      <th>板块名称</th>
+      <td>排序</td> 
+      <th>是否显示</th>  
+      <th width="250">操作</th>
+    </tr>
+    
+    {foreach $data as $keys => $val}
+    <tr>
+      <td>{$val['cid']}</td>      
+      <td>{$val['classname']}</td>  
+      <td>{$val['orderby']}</td>
+      {if $val['isdisplay'] == 0}
+      <td>是</td>
+      {else}
+      <td>否</td>
+      {/if}
+      <td>
+      <div class="button-group">
+       <a class="button border-red" href="index.php?m=index&a=shanchubankuai&cid={$val['cid']}"><span class="icon-trash-o"></span> 删除</a>
+      </div>
+      </td>
+    </tr>
+    {/foreach}
+    
+    <tr>
+
+      <td colspan="8">
+        <div class="pagelist">
+          <a href="{$url['first']}">首 页</a>
+          <a href="{$url['prev']}">上一页</a>
+          <span class="current">{$url['page']}</span>
+          <a href="{$url['next']}">下一页</a>
+          <a href="{$url['last']}">尾 页</a>
+        </div>
+      </td>
+
+    </tr>
+    <tr>
+        <td colspan="8">
+        <div class="pagelist">
+        <span class="current">共{$url['count']}页</span>
+        <span class="current">每页显示{$num}条</span>
+        <span class="current">总共{$total}条数据</span>
+        </div>
+        </td>
+      </tr>
+    
+    
+  </table>
+</div>
+<script>
+function del(id){
+	if(confirm("您确定要删除吗?")){
+		
+	}
+}
+</script>
+<div class="panel admin-panel margin-top">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>增加内容</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="index.php?m=index&a=tianjiabankuai"> 
+      <div class="form-group">
+        <div class="label">
+          <label>栏目名称：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="classname" value="" data-validate="required:请输入标题" />         
+          <div class="tips"></div>
+        </div>
+      </div> 
+      
+       
+    
+     <div class="form-group">
+        <div class="label">
+          <label>显示：</label>
+        </div>
+        <div class="field">
+          <div class="button-group radio">
+          
+          <label class="button active">
+         	  <span class="icon icon-check"></span>             
+              <input name="isdisplay" value="0" type="radio" checked="checked">是             
+          </label>
+        
+          <label class="button active"><span class="icon icon-times"></span>          	
+              <input name="isdisplay" value="1"  type="radio" checked="checked">否
+          </label>         
+           </div>       
+        </div>
+     </div>
+      <div class="form-group">
+        <div class="label">
+          <label>排序：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="orderby" value="0"  data-validate="required:,number:排序必须为数字" />
+          <div class="tips"></div>
+        </div>
+      </div>
+     <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body></html>

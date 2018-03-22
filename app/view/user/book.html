@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="renderer" content="webkit">
+    <title>{$title}</title>  
+    <link rel="stylesheet" href="public/css/pintuer.css">
+    <link rel="stylesheet" href="public/css/admin.css">
+    <script src="public/js/jquery.js"></script>
+    <script src="public/js/pintuer.js"></script> 
+</head>
+<body>
+<form method="post" action="">
+  <div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder"> 用户管理</strong></div>
+    
+    <table class="table table-hover text-center">
+      <tr>
+        <th width="120">ID</th>
+        <th>姓名</th>
+        <th>电话</th>
+        <th>邮箱</th>
+        <th>注册时间</th>
+        <th>最后登陆时间</th>
+        <th></th> 
+        <th>操作</th> 
+
+      </tr>
+      {foreach $data as $keys => $val}
+        <tr>
+          <td><input type="checkbox" name="uid[]" value="{$val['uid']}" />
+            1</td>
+          <td>{$val['username']}</td>
+          <td>{$val['phone']}</td>
+          <td>{$val['email']}</td>
+           <td>{$val['register_time']}</td>
+          <td>{$val['lastlogin_time']}</td>
+         <th></th> 
+          <td><div class="button-group"> <a class="button border-red" href="index.php?m=user&a=shanchu&uid[]={$val['uid']}"><span class="icon-trash-o"></span> 删除</a> </div></td>
+        </tr>
+        {/foreach}
+        
+         
+      <tr>
+
+        <td colspan="8">
+        <div class="pagelist">
+          <a href="{$url['first']}">首 页</a>
+          <a href="{$url['prev']}">上一页</a>
+          <span class="current">{$url['page']}</span>
+          <a href="{$url['next']}">下一页</a>
+          <a href="{$url['last']}">尾 页</a>
+        </div>
+        </td>
+
+      </tr>
+      <tr>
+        <td colspan="8">
+        <div class="pagelist">
+        <span class="current">共{$url['count']}页</span>
+        <span class="current">每页显示{$num}条</span>
+        <span class="current">总共{$total}条数据</span>
+        </div>
+        </td>
+      </tr>
+
+ 
+
+    </table>
+  </div>
+</form>
+<script type="text/javascript">
+
+function del(id){
+	if(confirm("您确定要删除吗?")){
+		
+	}
+}
+
+$("#checkall").click(function(){ 
+  $("input[name='uid[]']").each(function(){
+	  if (this.checked) {
+		  this.checked = false;
+	  }
+	  else {
+		  this.checked = true;
+	  }
+  });
+})
+
+function DelSelect(){
+	var Checkbox=false;
+	 $("input[name='id[]']").each(function(){
+	  if (this.checked==true) {		
+		Checkbox=true;	
+	  }
+	});
+	if (Checkbox){
+		var t=confirm("您确认要删除选中的内容吗？");
+		if (t==false) return false; 		
+	}
+	else{
+		alert("请选择您要删除的内容!");
+		return false;
+	}
+}
+
+</script>
+</body></html>

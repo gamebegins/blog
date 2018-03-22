@@ -1,0 +1,22 @@
+<?php 
+ return array (
+  0 => 'uid',
+  '_pk' => 'uid',
+  1 => 'admin',
+  2 => 'username',
+  3 => 'password',
+  4 => 'register_time',
+  5 => 'lastlogin_time',
+  6 => 'phone',
+  7 => 'email',
+  8 => 'realname',
+  9 => 'biethday',
+  10 => 'sex',
+  11 => 'picture',
+  12 => 'xtitle',
+  13 => 'zuoyouming',
+  14 => 'neirong',
+  15 => 'place',
+  16 => 'jiguan',
+  17 => 'qq',
+)?>

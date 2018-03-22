@@ -1,0 +1,234 @@
+/* COlORS */
+
+body {color: #909091;}
+h1, h2, h3, h4, h5, h6,
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{color:#3c3c3c;
+	 text-decoration:none;}
+
+
+
+/* #Footer
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+#footer-top .twtr-tweets .twtr-tweet-text p{color:#9e9e9e !important;}
+#footer-middle{color:#878787;}
+#footer-bottom a,
+#footer-bottom{color:#878787;}
+#footer-middle h3,
+#footer-middle h3 a{color:#ececec;}
+.address{color:#969696;}
+.latest_news li a,
+ul.latest_blog a{color:#a6a6a6;}
+.latest_news .time,
+.latest_blog time{color:#767676;}
+
+.social_links a b{color:#d9d9d9;}
+
+/* #Header
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.comment-info{color:#000;}
+#header-top a{color:#b0b0b0;}
+.sign-form label{color:#838385;}
+.logo a,
+.logo a:hover{color:#000 !important;
+	text-shadow:0 1px 0 #fbfbfc;}
+.slogan{color:#c7c7c7;}
+.tagline{color:#bababa;}
+	/* phone */
+.phone{color:#aeaeae;}
+.phone strong{color:#6c6c6c;}
+.phone strong mark{color:#3d3d3d;}
+	/* menu */
+a.navi-to{color:#c7c8c8;}
+ul#main-menu li a,
+.post-entry h2,
+.post-entry h2 a{color:#3e3b3b;}
+.work-by a{color:#909091;}
+.btn input,
+.post-info .post-date,
+.post-info .post-comments,
+.hm-text h3 a,
+.hm-text h3 a{color:#fff;}
+
+.sidebar-titles{color:#666;}
+
+	
+
+/* #Content
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+h1.title,
+.title h1{color:#242424;}
+.title p{color:#9e9e9e;}
+a.btn-blue,
+a.btn-orange,
+a.btn-black{color:#fff !important;}
+
+.slider-text{
+	/*text-shadow:0 1px 0 #f4f3f3;*/}
+.tab-navi.tab-type2 > ul > li > a {color:#a3a3a3;}
+.blog-info{color:#a5a5a5;}
+.accordation-item-body p,
+.jToggle-item-body p{color:#a6a6a6;}
+.text-bottom{color:#a7a7a7;}
+.pager a,
+.pager a.pager-previous:hover,
+.pager a.pager-next:hover{color:#a4a4a6;}
+.text-top{color:#484848;}
+
+.slider-text h3{color:#3c3c3c;}
+.inner-page-sidebar h4,
+.service-title h4,
+.sidebar-titles,
+.block-inner-text,
+.col-3e3b3b,
+.items-detail h3 em{color:#3e3b3b;}
+.pricing-box-header h3{color:#343434;}
+.filtr-categories a.active{color:#404040;}
+.standard .pricing-box-header h4 strong,
+.business .pricing-box-header h4 strong{color:#4e4e4e;}
+.ipl-link{color:#444;}
+ul.our-team-list li strong,
+.portfolio-page-link a,
+.blog-posts ul li h3{color:#595959;}
+.progress-value{color:#616161;}
+.comment-info strong{color:#666;}
+.jToggle-items.type1 .jToggle-item-header a{color:#6e6e6e;}
+
+.inner-page-content h4,
+.latest-list a,
+.col707070{color:#707070;}
+.info_text strong{color:#737373;}
+.filtr-categories a:hover{color:#757575;}
+ul.our-work-scheeme li strong{color:#787878;}
+.pager .active a{color:#7b7b7b;}
+.slider-text p,
+.tab-navi li a{color:#828282;}
+.post-details{color:#858585;}
+.rec_fade_context,
+.accordation-item-header a,
+.jToggle-item-header a{color:#878787;}
+.recent-posts-side a, .ipl-text{color:#8c8c8c;}
+.pricing-box-header h4{color:#8b8b8b;}
+ul.sevice-links li a,
+.grey-links a,
+.categories-list a{color:#8f8f8f;}
+.sub-title a,
+.recent_blog li,
+.service_list li,
+.service_list li p,
+select#main-menu-mobile,
+.box-page-slogan,
+.project-navi a,
+.post-info .post-categories a:hover,
+.items-detail h3 em,
+.page-404 h3{color:#909091;}
+.rec_category,
+.rec_category a{color:#9c9c9c;}
+.details mark,
+.details .time,
+.details a:hover,
+.blog-info{color:#939393;}
+.info_text{color:#959595;}
+.details,
+.filtr-block,
+.filtr-block a{color:#a5a5a5;}
+.sidebar-accordation p{color:#a6a6a6;}
+ul.our-team-list li span{color:#a8a8a8;}
+.cite-sign,
+.recent-posts-side em{color:#bfbfbf;}
+.date-latest{color:#b5b5b5;}
+ul.our-work-scheeme li span{color:#b0d5e5;}
+.progress-bar-text{color:#fff;}
+
+a:hover.btn-grey{color:#fff;}
+
+.note-red{color:#dd5a58;}
+.note-blue{color:#499abf;}
+.note-green{color:#7b9c46;}
+.note-yellow{color:#dea803;}
+.comment-date{color:#bdbdbd;}
+.plan-header{color:#fff;text-shadow:0 1px 0 rgba(0,0,0,0.2);}
+table.def-table th{color:#e6e6e6;}
+.project-navi{color:#ececec;}
+
+.tag-link{color:#a9a9ab;
+	text-shadow:0 1px 0 #fff;}
+.tag-link:hover{color:#fff; text-shadow:none;}
+
+a.read-more:hover{color:#b8b8b8;}
+.hm-text{color:#ccc;}
+ul#main-menu li li a{color:#919191;}
+ul#main-menu li li a:hover,
+ul#main-menu li li a.active{color:#696969;}
+
+/* #COLORS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.colored-orange,
+.basic .pricing-box-header h4 strong{color:#f3793c;}
+.colored-grey{color:#b8b8b8;}
+
+	/* blue */
+			/* selections */
+::-moz-selection { background: #0098d8; text-shadow:none !important; color:#fff;}
+::-webkit-selection { background: #0098d8; text-shadow:none !important; color:#fff;}
+::selection { background: #0098d8; text-shadow:none !important; color:#fff;}
+			/* colors */
+
+.colored-blue,
+h1 mark,
+h2 mark,
+h3 mark,
+h4 mark,
+h5 mark,
+h6 mark,
+h4 a:hover,
+#footer-bottom a:hover,
+#footer-bottom a.active,
+#footer-middle a:hover,
+#footer-middle a.active,
+#header-top a:hover,
+a mark,
+#main-menu li a:hover,
+#main-menu li a.active,
+a:hover.navi-to,
+.box-page-slogan mark,
+.sub-title a:hover,
+.rec_category a:hover,
+h5 a:hover,h3 a:hover,
+.details a,
+h6 a:hover, h6 a.active,
+.portfolio-page-link a:hover,
+.tab-navi a.active,
+.tab-navi a:hover,
+.tab-navi > ul > li > a.active-trail,
+.accordation-item-header a:hover,
+.accordation-item-header a.active,
+.accordation-items.type2 .accordation-item-header a:hover,
+.accordation-items.type2 .accordation-item-header a.active,
+.jToggle-items.type1 .jToggle-item-header a:hover,
+.jToggle-items.type1 .jToggle-item-header a.active,
+.jToggle-items.type2 .jToggle-item-header a:hover,
+.jToggle-items.type2 .jToggle-item-header a.active,
+.premium .pricing-box-header h4 strong,
+.email-line a,
+.website-line a,
+.project-navi a:hover,
+.work-by a:hover,
+.categories-list a:hover,
+.recent-posts-side a:hover,
+.post-entry h2 a:hover,
+.post-info .post-categories a,
+a.read-more,
+.pager a:hover,
+.address a,
+ul.latest_blog a:hover,
+ul.sevice-links li a:hover,
+.latest-list a:hover,
+.tab-navi.tab-type2 > ul > li > a.active,
+.tab-navi.tab-type2 > ul > li > a.active-trail,
+.tab-navi.tab-type2 > ul > li > a:hover,
+.grey-links a:hover,
+.ipl-link:hover,
+.page-404 p strong{color:#0098d8;}
+
+a.link-detail:hover{color:#42a9d5;}
+

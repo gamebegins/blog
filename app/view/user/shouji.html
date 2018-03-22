@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta author="zrong.me 曾荣">
+	<title>登录 - 知乎 - Thousands Find</title>
+	<link rel="stylesheet" type="text/css" href="public/css/register-login.css">
+	<script type="text/javascript" src="./public/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+		 $(function(){
+		 	 $('#btn1').click(function(){
+		 	 	var phone=$('#dx').val();
+		 	 	data={
+		 	 		'phone':phone
+		 	 	}
+		 	 	$.post('index.php?m=user&a=doEmail',data,function(){
+		 			
+		 	 	})
+		 	 })
+		 })
+	</script>
+</head>
+<body>
+<div id="box"></div>
+<div class="cent-box">
+	<div class="cent-box-header">
+		<h1 >忘记密码</h1>
+		<h2 class="sub-title">可通过手机或邮箱验证修改</h2>
+	</div>
+
+	<div class="cont-main clearfix">
+		<div class="index-tab">
+			<div class="index-slide-nav">
+				<a href="shouji.html" class="active">手机</a>
+				<a href="youxiang.html">邮箱</a>
+				<div class="slide-bar"></div>
+			</div>
+		</div>
+
+		<div class="login form">
+			<div class="group">
+				<div class="group-ipt email">
+					<input type="text" name="email" id="email" class="ipt" placeholder="新密码" required>
+				</div>
+				<div class="group-ipt email">
+					<input style="border-bottom: 1px solid #e8e8e8;" type="password" name="phone" id="dx" placeholder="请输入手机号" required>
+				</div>
+				<div class="group-ipt email">
+					<input style="width: 192px;height: 100%;border-right: 1px solid #e8e8e8;" type="text" name="verify" placeholder="输入验证码" required>
+					<input style="width: 100px;height: 100%;border-left: 1px solid #e8e8e8;" type="button" value=" 获取验证码" id="btn1" onclick="settime(this);">
+				</div>
+			</div>
+		</div>
+
+		<div class="button">
+			<button type="submit" class="login-btn register-btn" id="button">修改</button>
+		</div>
+
+
+	</div>
+</div>
+
+<script type="text/javascript">  
+  
+//倒计时  
+var countdown=60;  
+function settime(val) {  
+    if (countdown == 0) {  
+        val.removeAttribute("disabled");  
+        val.value="获取验证码";  
+        countdown = 60;  
+        return false;  
+    } else {  
+        val.setAttribute("disabled", true);  
+        val.value="重新发送(" + countdown + ")";  
+        countdown--;  
+    }  
+    setTimeout(function() {  
+        settime(val);  
+    },1000);  
+}  
+</script> 
+
+</body>
+</html>

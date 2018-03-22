@@ -1,0 +1,648 @@
+/* #Basic Styles
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body {
+	font: 12px/18px "Droid Sans",
+Arial,
+sans-serif;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+}
+.al-right{text-align:right;}
+
+.title h1{
+	line-height:31px;
+	font-size:27px;
+	text-transform:uppercase;}
+.title p{
+	font:11px/18px  "Droid Sans",
+Arial,
+sans-serif;}
+
+.sub-title h3,
+h3.sub-title{
+	font:600 18px/28px "Dosis",
+"Trebuchet MS",
+sans-serif;}
+.do-items h4{
+	font:700 12px/16px "Pt Sans",arial,
+sans-serif;
+	text-transform:uppercase;}
+.list_recent h5{
+	font:700 13px/18px "Pt Sans",arial,
+sans-serif;}
+
+.sidebar-titles{
+	font:600 13px/19px"Dosis",
+"Trebuchet MS",
+sans-serif;text-transform:uppercase;} 
+
+.contact-datails{
+	font-size:11px;}
+.contact-datails h3,
+.contact-upper-form h3{
+	font:700 14px "Dosis",
+"Trebuchet MS",
+sans-serif;}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+textarea,
+select {
+		font:11px "Arial",
+sans-serif;}
+
+	/* Droid */
+.font_droidsans{
+	font-family:"Droid Sans",
+sans-serif;}
+	/* Dosis */
+.font_dosis{
+	font-family:"Dosis",
+"Myriad Pro",
+Helvetica,
+sans-serif;}
+
+.font-italic{
+	font-style:italic !important;}
+
+
+.RoundFirstLetter mark,
+.DecFirstLetter mark,
+.SquareFirstLetter mark,
+.RoundBlueFirstLetter mark{
+	text-align:center;font:700 18px/26px "Pt Sans",arial,
+sans-serif;,
+sans-serif}
+.DecFirstLetter mark{font-size:20px;}
+
+
+
+table.def-table th{
+	font:700 13px/15px "Pt Sans",arial,
+sans-serif;}
+
+table.def-table td{
+	font:12px/15px "Pt Sans",arial,
+sans-serif;}
+
+.inner-page-content h4{
+	font:700 11px/17px "Open Sans",arial,
+sans-serif;}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+	/* style */
+.italic,
+.tagline,
+#footer-top .twtr-tweet p,
+.info_text,
+.recent-posts-side em,
+.service-title p{
+	font-style:italic;}
+
+	/* weight */
+.wei100,
+.tagline,
+#main-menu li li,
+#main-menu li li a,
+#header-middle .logo,
+#footer-middle .logo,
+ul.block-filtered-items li .rec_category a,
+.categories-list a,
+.pricing-box-header h4,
+.recent-posts-side em,
+.tag-link,
+.category-project,
+.category-project a{
+	font-weight:100;}
+	/*尝试渐变效果*/
+.categories-list a{
+transition:margin 0.8s;
+-moz-transition:margin 0.8s; /* Firefox 4 */
+-webkit-transition:margin 0.8s; /* Safari and Chrome */
+-o-transition:margin 0.8s; /* Opera */
+}
+.categories-list a:hover{
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+.wei400,
+.work-by,
+.details mark,
+.work-by a,
+.details .time,
+.service-title p,
+.leave-comment label,
+.items-detail h3 em,
+.blog-info,
+.page-404 p strong{
+	font-weight:400;}
+.wei600,
+.slider-text h3,
+.portfolio-text h2,
+.post-entry h2,
+.service-title h4,
+.block-inner-text,
+.hm-text h3,
+.inner-page-sidebar h4,
+.items-detail h3,
+.s-text{
+	font-weight:600;}
+.wei700,
+.phone,
+#main-menu li a,
+ul.our-work-scheeme li span,
+ul.our-work-scheeme li span,
+ul.our-work-scheeme li strong,
+ul.our-team-list li strong,
+ul.our-team-list li span,
+#footer-middle h3,
+.latest_news li a,
+ul.latest_blog a,
+.work-by,
+.latest_news .time,
+ul.latest_blog .time,
+.details a,
+.info_text,
+.decorated-text,
+.filtr-block,
+.filtr-block a,
+.portfolio-page-link a,
+.accordation-items.type1 .accordation-item-header a,
+.jToggle-items.type1 .jToggle-item-header a,
+.pricing-box-header h3,
+.contact-form label,
+.recent-posts-side a,
+.post-info .post-comments,
+ul.latest-list a,
+.project-navi a,
+.plan-name,
+.ipl-link,
+.comment-info a,
+.leave-comment h2{
+	font-weight:700;}
+.page-404 h3{
+	font-weight:800;}
+	/* font size */
+.fs9,
+#footer-bottom,
+.social_links a,
+.details,
+.read-more,
+.link-detail{
+	font-size:9px;}
+.fs10,
+.latest_news li,
+.latest_news .time,
+ul.latest_blog .time,
+.filtr-block,
+.filtr-block a,
+.progress-bar,
+.project-navi a,
+.service-title p,
+.items-detail h3 em,
+.blog-info{
+	font-size:10px;}
+.fs11,
+.slogan,
+#main-menu li a,
+#header-top,
+.latest_news li a,
+ul.latest_blog a,
+.category-project,
+.recent-posts-side em,
+.work-by,
+.copyrights,
+.sign-form a,
+.info_text,
+.crumbs,
+.post-details,
+.date-latest,
+ul.latest-list a,
+.tag-link,
+.desc-container-box,
+.post-categories a{
+	font-size:11px;}
+.fs12,
+.contact-datails p,
+.tagline,
+ul.our-team-list li span,
+#footer-top .twtr-tweet p,
+#footer-middle,
+.address,
+.categories-list a,
+.btn input,
+.recent-posts-side a,
+.pager a,
+.comment-date,
+#footer-middle .address p,
+.leave-comment label,
+.page-404 h3,
+.contact-form label{
+	font-size:12px;}
+#main-menu > li > a,
+#header-wrapperli li a{
+	font-size:18px;}
+.fs13,
+select#main-menu-mobile,
+ul.our-work-scheeme li strong,
+ul.our-team-list li strong,
+.inner-page-sidebar h4,
+.portfolio-page-link a,
+.accordation-items.type1 .accordation-item-header a,
+.jToggle-items.type1 .jToggle-item-header a,
+.plan-name,
+.block-inner-text,
+.hm-text h3,
+.ipl-link,
+.blog-posts ul li h3,
+.slogan-slider li {
+	font-size:13px;}
+.fs14,
+.phone,
+ul.our-team-list li span,
+#footer-middle h3,
+.slider-text h3,
+.info-block h5,
+.items-detail h3,
+.service-title h4{
+	font-size:14px;}
+.fs15,
+.project-navi,
+.pricing-box-header h4,
+.post-info .post-comments{
+	font-size:15px;}
+.fs16,
+.box-page-slogan,
+.portfolio-text h2,
+.post-entry h2{
+	font-size:16px;}
+#header-top{
+	line-height:17px;}
+.fs18,
+.phone strong mark,
+.address,
+.inner-page-content h3{
+	font-size:18px;}
+.fs19,
+.pricing-box-header h3{
+	font-size:19px;}
+.fs20,
+.s-text{font-size:20px;}
+.fs21,
+#footer-middle .logo{
+	font-size:21px;}
+.fs30,
+.plan-price{
+	font-size:30px;}
+.lh33,
+ul.our-work-scheeme li span{
+	font-size:33px;}
+.fs34,
+#header-middle .logo{
+	font-size:34px;}
+
+	/* line height */
+.rec_category,
+.rec_category a{
+	line-height:10px;}
+.read-more,
+.details{
+	line-height:11px;}
+.lh13,
+.slogan{
+	line-height:13px;}
+.service-title p,
+.blog-info{
+	line-height:14px;}
+.lh15,
+.latest_news li a,
+ul.latest_blog a,
+.category-project,
+.work-by,
+.slogan-slider li,
+.crumbs,
+.items-detail h3 em{
+	line-height:15px;}
+.filtr-block,
+.filtr-block a{
+	line-height:16px;}
+.lh17,
+ul.our-work-scheeme li strong,
+#footer-top .twtr-tweet p,
+#footer-middle,
+.latest_news .time,
+ul.latest_blog .time,
+#footer-bottom,
+.copyrights,
+.social_links a,
+.recent-posts-side a,
+.slider-text p,
+.portfolio-page-link a,
+.pricing-box-header h4,
+.post-info .post-comments,
+ul.latest-list a,
+.service-title h4,
+.hm-text h3,
+.hm-text,
+.items-detail h3,
+.ipl-link,
+.blog-posts ul li h3,
+.page-404 p strong,
+.btn input,
+.recent-posts-side em{
+	line-height:17px;}
+.lh18,
+.tagline,
+#main-menu li a,
+#main-menu li li,
+#main-menu li li a,
+.inner-page-sidebar h4,
+.slider-text h3,
+#footer-middle .address p,
+.page-404 h3,
+.inner-page-content h3{
+	line-height:18px;}
+.lh19{
+	line-height:19px;}
+.lh20,
+.phone,
+.project-navi,
+.portfolio-text h2,
+.post-entry h2{
+	line-height:20px;}
+lh20,
+.progress-bar{
+	line-height:21px;}
+.lh22,
+.block-inner-text,
+.tag-link{
+	line-height:22px;}
+
+.lh23,
+.pricing-box-header h3,
+.project-navi,
+.project-navi a{
+	line-height:23px;}
+.lh25,
+#footer-middle .logo{
+	line-height:25px;}
+.box-page-slogan{
+	line-height:26px;}
+.sign-form a{line-height:27px;}
+.lh28,
+select#main-menu-mobile{
+	line-height:28px;}
+.lh33,
+ul.our-work-scheeme li span{
+	line-height:33px;}
+.lh34,
+.plan-price{
+	line-height:34px;}
+.lh35,
+.plan-name{line-height:35px;}
+.lh36,
+#header-middle .logo{
+	line-height:36px;}
+
+	/* dec none */
+#header-top a,
+#main-menu li a,
+a.navi-to,
+#header-middle .logo a,
+.latest-list a,
+.latest_news li a,
+ul.latest_blog a,
+.category-project,
+.work-by,
+#footer-bottom a,
+.box-page-slogan a,
+.sub-title a,
+.rec_category a,
+.details a,
+.filtr-block a,
+.portfolio-page-link a,
+.email-line a,
+.website-line a,
+.categories-list a,
+.project-navi a,
+.recent-posts-side li a,
+#footer-middle li a
+#footer-middle .logo a,
+.tag-link,
+.post-info .post-categories a,
+.crumbs a:hover,
+.read-more,
+.pager a,
+.grey-links a,
+.comment-info a,
+.link-detail,
+.ipl-link,
+.page-404 a{
+	text-decoration:none;}
+#footer-middle address a,
+.email-line a:hover,
+.website-line a:hover,
+.comment-info a:hover,
+.page-404 a:hover{
+	text-decoration:underline;}
+
+	/* align right */
+.box-page-slogan.inner-page-slogan,
+.btn input,
+.contact-form label{
+	text-align:left !important;}
+.al-right,
+#header-top .half-right,
+.info,
+.copyrights{
+	text-align:right;}
+.box-page-slogan{
+	text-align:center;}
+
+	/* upper */
+.tt-upper,
+#main-menu li a,
+.project-navi a,
+ul.our-work-scheeme li strong,
+.inner-page-sidebar h4,
+#footer-middle h3,
+#footer-bottom a,
+.box-page-slogan,
+.details a,
+.details mark,
+.details .time,
+.filtr-block,
+.filtr-block a,
+.portfolio-text h2,
+.progress-bar,
+.plan-name,
+.read-more,
+.link-detail,
+.blog-info strong,
+.page-404 h3{
+	text-transform:uppercase;}
+#main-menu li li,
+#main-menu li li a,
+.address a:hover,
+.slider-text h3,
+.slogan-slider li,
+.post-entry h2,
+.hm-text h3,
+.items-detail h3 em,
+.service-title h4,
+.blog-posts ul li h3,
+.items-detail h3,
+.pricing-box-header h3{
+	text-transform:none;}
+.social_links a{
+	text-transform:capitalize;}
+	/* font family */
+#footer-bottom,
+.social_links a{font-family:Tahoma,
+Geneva,
+sans-serif;}
+.arial,
+.slogan,
+.phone,
+ul.our-work-scheeme li span,
+.service-title p,
+.sign-form a,
+.post-info .post-comments,
+.date-latest,
+.leave-comment label,
+.items-detail h3 em,
+.contact-form label{
+	font-family:Arial,
+Helvetica,
+sans-serif;}
+.georgia,
+.slogan-slider li{
+	font-family:Georgia,
+"Times New Roman",
+Times,
+serif;}
+.opensans,
+#main-menu li a,
+.latest_news li a,
+ul.latest_blog a,
+.category-project,
+.work-by,
+.info_text,
+.jToggle-items.type2 .jToggle-item-header a,
+.recent-posts-side em,
+.categories-list a,
+.tag-link,
+.post-entry h2,
+.read-more,
+ul.latest-list a,
+.block-inner-text,
+.link-detail,
+.items-detail h3,
+.service-title h4,
+.s-text{
+	font-family:"Open Sans",arial,
+sans-serif;}
+.dosis,
+ul.our-work-scheeme li strong,
+.inner-page-sidebar h4,
+.plan-name,
+.portfolio-text h2,
+.page-404 h3{
+	font-family:"Dosis",
+Tahoma;}
+.pt-sans,
+ul.our-team-list li strong,
+ul.our-team-list li span,
+#footer-top .twtr-tweet p,
+.latest_news .time,
+ul.latest_blog .time,
+.slider-text h3,
+.details,
+.filtr-block,
+.filtr-block a,
+.portfolio-page-link a,
+.progress-bar,
+.pricing-box-header h3,
+.pricing-box-header h4,
+.btn input,
+.project-navi a,
+.recent-posts-side a,
+.comment-date,
+.hm-text h3,
+.ipl-text,
+.plan-price,
+.blog-posts ul li h3,
+.blog-info,
+.pricing-box-header p,
+.ipl-link,
+.post-categories a,
+#main-menu > li > a,
+.jToggle-item-header{
+	font-family:"Pt Sans",arial,
+sans-serif;}
+.droid,
+.address,
+.copyrights,
+.slider-text p,
+.crumbs,
+#footer-middle .address p,
+.pager a,
+#main-menu li li a{
+	font-family:"Droid Sans",arial,
+sans-serif;}
+.tagline{font-family:"Times New Roman",
+Times,
+serif;}
+#header-middle .logo{
+	letter-spacing:-2px;}	
+.progress-bar-text{
+	text-indent:8px;}
+
+
+ul.our-work-scheeme li span{
+	text-shadow:0 1px 0 #fff,
+0 -1px 0 #93b2bf; }
+ul.our-work-scheeme li strong{
+	text-shadow:0 1px 0 #fff;}
+	
+/* #Media Queries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	}
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px){
+		.premium-plan .plan-header .plan-name{
+		line-height:43px;font-size:16px;}
+
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		#header-middle,
+		#header-middle .info{
+			text-align:center;}
+	
+		#footer-bottom{font-size:11px;}	
+		.copyrights{text-align:left;}
+		
+		ul#main-menu li a{
+			font-weight:100;
+			text-transform:none;}
+		.box-page-slogan{
+			font-size:15px; line-height: 24px;}
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+	}
+	

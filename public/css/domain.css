@@ -1,0 +1,19 @@
+*html #domainbody { /*--IE6 Hack - Fixed Positioning to the Bottom--*/
+	margin-top:50px;/*--Prevents IE6 from having an infinity scroll bar - due to 1px border on #footpanel--*/
+	position:absolute;
+	top:expression(eval(document.compatMode &&document.compatMode=='CSS1Compat') ?documentElement.scrollTop+50 :document.body.scrollTop +50);
+}
+#domainbody{position:fixed;left:0px;bottom:200px;z-index:10008;width:132px;padding:10px;background:#fff;border:1px solid #ddd;box-shadow:1px 1px 1px #d4d4d4;font-size:12px;}
+.cs_online{height:30px;background:url('../images/domain-bc.png') no-repeat 0px -50px;}
+.cs_online_domain{height:25px;}
+.cs_online_domain h5:link, .cs_online_domain h4:active, .cs_online_domain h4:visited, .cs_online_domain h4:hover{text-decoration:none;color:#0098d8;cursor: hand;}
+
+.cs_baidu{height:32px;background:url('../images/domain-bc.png') no-repeat 0px -200px;}
+.cs_baidu a{display:block;height:32px;}
+.cs_baidu a span{display:none;}
+
+.cs_spr{border-bottom:1px dashed #c0c0c0;margin:8px 0px;}
+.cs_space{clear:both;overflow:hidden;height:8px;}
+.cs_close{position:absolute;right:5px;top:5px;width:12px;height:12px;background:url('../images/domain-bc.png') no-repeat 0px -150px;}
+.cs_close a{display:block;height:10px;}
+.cs_close a span{display:none;}
